@@ -106,6 +106,8 @@ impl traits::DateNumIncrement for increment::Increment {
                         today_._month,
                         (31 as i32).abs() - today_._day
                     );
+                    println!("Day of Today: {}", today_._day);
+                    println!("Add One More Day: {}", today_._day + 1);
                 }
 
                 2 => {
@@ -114,6 +116,9 @@ impl traits::DateNumIncrement for increment::Increment {
                         today_._month,
                         (28 as i32).abs() - today_._day
                     );
+
+                    println!("Day of Today: {}", today_._day);
+                    println!("Add One More Day: {}", today_._day + 1);
                 }
 
                 3 => {
@@ -122,6 +127,9 @@ impl traits::DateNumIncrement for increment::Increment {
                         today_._month,
                         (31 as i32).abs() - today_._day
                     );
+
+                    println!("Day of Today: {}", today_._day);
+                    println!("Add One More Day: {}", today_._day + 1);
                 }
 
                 4 => {
@@ -130,6 +138,9 @@ impl traits::DateNumIncrement for increment::Increment {
                         today_._month,
                         (30 as i32).abs() - today_._day
                     );
+
+                    println!("Day of Today: {}", today_._day);
+                    println!("Add One More Day: {}", today_._day + 1);
                 }
 
                 5 => {
@@ -138,6 +149,9 @@ impl traits::DateNumIncrement for increment::Increment {
                         today_._month,
                         (31 as i32).abs() - today_._day
                     );
+
+                    println!("Day of Today: {}", today_._day);
+                    println!("Add One More Day: {}", today_._day + 1);
                 }
 
                 6 => {
@@ -146,6 +160,9 @@ impl traits::DateNumIncrement for increment::Increment {
                         today_._month,
                         (30 as i32).abs() - today_._day
                     );
+
+                    println!("Day of Today: {}", today_._day);
+                    println!("Add One More Day: {}", today_._day + 1);
                 }
 
                 7 => {
@@ -154,6 +171,9 @@ impl traits::DateNumIncrement for increment::Increment {
                         today_._month,
                         (31 as i32).abs() - today_._day
                     );
+
+                    println!("Day of Today: {}", today_._day);
+                    println!("Add One More Day: {}", today_._day + 1);
                 }
 
                 8 => {
@@ -162,6 +182,9 @@ impl traits::DateNumIncrement for increment::Increment {
                         today_._month,
                         (31 as i32).abs() - today_._day
                     );
+
+                    println!("Day of Today: {}", today_._day);
+                    println!("Add One More Day: {}", today_._day + 1);
                 }
 
                 9 => {
@@ -170,6 +193,9 @@ impl traits::DateNumIncrement for increment::Increment {
                         today_._month,
                         (30 as i32).abs() - today_._day
                     );
+
+                    println!("Day of Today: {}", today_._day);
+                    println!("Add One More Day: {}", today_._day + 1);
                 }
 
                 10 => {
@@ -178,6 +204,9 @@ impl traits::DateNumIncrement for increment::Increment {
                         today_._month,
                         (30 as i32).abs() - today_._day
                     );
+
+                    println!("Day of Today: {}", today_._day);
+                    println!("Add One More Day: {}", today_._day + 1);
                 }
 
                 11 => {
@@ -186,6 +215,8 @@ impl traits::DateNumIncrement for increment::Increment {
                         today_._month,
                         (31 as i32).abs() - today_._day
                     );
+                    println!("Day of Today: {}", today_._day);
+                    println!("Add One More Day: {}", today_._day + 1);
                 }
 
                 12 => {
@@ -194,6 +225,9 @@ impl traits::DateNumIncrement for increment::Increment {
                         today_._month,
                         (30 as i32).abs() - today_._day
                     );
+
+                    println!("Day of Today: {}", today_._day);
+                    println!("Add One More Day: {}", today_._day + 1);
                 }
                 _ => {}
             }
@@ -205,50 +239,75 @@ impl traits::DateNumIncrement for increment::Increment {
             match today._month as i32 {
                 1 => {
                     println!("Month: {} has {} Days", today._month, (31 as i32).abs() - today._day);
+
+                    println!("Day of Today: {}", today._day);
+                    println!("{} {}", "Yesterday was:", today._day - 1)
                 }
 
                 2 => {
                     println!("Month: {} has {} Days", today._month, (28 as i32).abs() - today._day);
+                    println!("Day of Today: {}", today._day);
+                    println!("{} {}", "Yesterday was:", today._day - 1)
                 }
 
                 3 => {
                     println!("Month: {} has {} Days", today._month, (31 as i32).abs() - today._day);
+                    println!("Day of Today: {}", today._day);
+                    println!("{} {}", "Yesterday was:", today._day - 1)
                 }
 
                 4 => {
                     println!("Month: {} has {} Days", today._month, (30 as i32).abs() - today._day);
+                    println!("Day of Today: {}", today._day);
+                    println!("{} {}", "Yesterday was:", today._day - 1)
                 }
 
                 5 => {
                     println!("Month: {} has {} Days", today._month, (31 as i32).abs() - today._day);
+                    println!("Day of Today: {}", today._day);
+                    println!("{} {}", "Yesterday was:", today._day - 1)
                 }
 
                 6 => {
                     println!("Month: {} has {} Days", today._month, (30 as i32).abs() - today._day);
+                    println!("Day of Today: {}", today._day);
+                    println!("{} {}", "Yesterday was:", today._day - 1)
                 }
 
                 7 => {
                     println!("Month: {} has {} Days", today._month, (31 as i32).abs() - today._day);
+                    println!("Day of Today: {}", today._day);
+                    println!("{} {}", "Yesterday was:", today._day - 1)
                 }
 
                 8 => {
                     println!("Month: {} has {} Days", today._month, (31 as i32).abs() - today._day);
+                    println!("Day of Today: {}", today._day);
+                    println!("{} {}", "Yesterday was:", today._day - 1)
                 }
 
                 9 => {
                     println!("Month: {} has {} Days", today._month, (30 as i32).abs() - today._day);
+                    println!("Day of Today: {}", today._day);
+                    println!("{} {}", "Yesterday was:", today._day - 1)
                 }
 
                 10 => {
                     println!("Month: {} has {} Days", today._month, (30 as i32).abs() - today._day);
+                    println!("Day of Today: {}", today._day);
+                    println!("{} {}", "Yesterday was:", today._day - 1)
                 }
 
                 11 => {
                     println!("Month: {} has {} Days", today._month, (31 as i32).abs() - today._day);
+                    println!("Day of Today: {}", today._day);
+                    println!("{} {}", "Yesterday was:", today._day - 1)
                 }
 
                 12 => {
                     println!("Month: {} has {} Days", today._month, (30 as i32).abs() - today._day);
+                    println!("Day of Today: {}", today._day);
+                    println!("{} {}", "Yesterday was:", today._day - 1)
                 }
                 _ => {}
             }
